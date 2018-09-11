@@ -1,0 +1,93 @@
+body{
+	background: #171717;
+	font-size: 18px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.postcard{
+	background: white url("https://static1.bigstockphoto.com/2/2/1/large2/122256293.jpg") center;
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	padding: 20px;
+	position: absolute; /*Posicionar de acuerco a su etiqueta padre*/
+	top:50%;/*Mover desde el margen supeerior*/
+	left:50%;/*Mover desde la izquierda*/
+	transform: translate(-50%,-50%); /*Trasladar desde la posicion actual*/
+	border-radius: 10%;
+}
+
+input{
+	font-size: 18px;
+	font-family: 'Indie Flower', cursive;
+}
+.postcard_header img{
+	max-width: 60px;
+	float: right;
+	border-radius: 50%;
+}
+
+.postcard h1{
+	margin:0;
+	font-size: 42px;
+	text-align: center;
+}
+
+.postcard_left{
+	float: left;
+	width: 45%;
+	padding: 5px;
+}
+
+.postcard_right{
+	float:right;
+	width: 45%;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+.postcard_right input{
+	display:block;
+
+}
+
+.postcard_footer{
+	padding: 10px;
+	text-align: center;
+
+}
+
+.postcard_body{
+	overflow: hidden;
+}
+
+.postcard_footer input[type=submit]{
+	border:none;
+	border-bottom: 2px solid #075693;
+	border-radius: 10px;
+	background: #529ED9;
+}
+
+.postcard_footer input[type=submit]:hover{
+	border:none;
+	border-top: 2px solid #075693;
+}
+
+.postcard_body input[type=text]{
+	border:none;
+	border-bottom: 2px solid #075693;
+	width: 90%;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.postcard_body input[type=text]:focus{
+	border:none;
+	border-top: 2px solid #075693;
+}
+
+p{
+	text-align: justify;
+	font-weight: bold;
+	font-size: 1.1em;
+}
